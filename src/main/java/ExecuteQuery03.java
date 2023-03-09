@@ -16,7 +16,7 @@ public class ExecuteQuery03 {
         while (resultSet1.next()){
 
             System.out.println(resultSet1.getString("company")+"--"+resultSet1.getInt("number_of_employees"));
-
-        }}
+        }
+    }
 }
 
