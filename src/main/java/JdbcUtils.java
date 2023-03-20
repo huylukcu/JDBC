@@ -53,8 +53,6 @@ public class JdbcUtils {
             return isExecute;
         }
 
-
-
         //5. Step: Close the connection and statement
         public static void closeConnectionAndStatement(){
             try {
